@@ -21,7 +21,7 @@ ilişkisel veri tabanı ile uygulamamız arasında bir köprü görevi gören, i
 - Orm aracını öğrenmek için de zamana ihtiyacınız vardır.
 
 
-### ORM modelleme yaklaşımları 3'e ayrılır:
+## ORM modelleme yaklaşımları 3'e ayrılır:
 
 1. DB First Yaklaşım
 2. Code First Yaklaşım

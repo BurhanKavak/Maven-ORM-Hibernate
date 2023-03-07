@@ -62,6 +62,8 @@ ilişkisel veri tabanı ile uygulamamız arasında bir köprü görevi gören, i
 **Hibernate** verinin kalıcı (persistence) olmasını sağlamak için veritabanına karşılık gelen sınıfları ve bu sınıfların konfigurasyon dosyalarını kullanır. Ayrıca hangi veritabanına nasıl bağlanılacağı bilgilerinin tutulduğu bir XML dosyası da vardır. Sınıflar için kullanılan konfigurasyon dosyalarında hangi sınıfı veritabanındaki hangi tabloya karşılık geldiği bilgileri ile kolon bilgileri tutulur. Sınıflar için kullanılan bu konfigurasyon dosyaları eskiden bir metin dosyasında saklanırke şimdi Annotation
 lar ile ifade edilmektedir.
 
+Kodlarımız da HQL yazıyoruz yani Hibernate Query Language nesneye yönelik sorgulama dilidir. Bu sorgulama dilinin avantajı nesnesel olması ve bizim java sınıflarımız ile ilişkili bir yapı kurabilmemizi mümkün kılmaktadır. “Code first” yapısına daha uygun olan HQL bizi sadece koda odaklanmamızı da sağlıyor. Sorgulama işlemlerimizi SQL’de olduğu gibi tablolar ve alanları üzerinden değil java sınfları ve sınıflar üzerinde oluşturduğumuz değişkenler üzerinden yapılmasına olanak sağlamaktadır.
+
 <i>Maven-Hibernate ile veritabanı işlemi yapabilmemiz için belli başlı bağımlılıklar ve
 hibernate xml dosyasına ihtiyacımız  bu dosyayı main altında **resources** kısmına ekliyoruz. Bu hibernate.cfg.xml dosayasını inceleyecek
 olursak mysql bağlantısı yapabileceğimiz bir driver,url,username,password gibi bilgieri girerek mysql bağlantısını oluşturuyoruz.</i>
